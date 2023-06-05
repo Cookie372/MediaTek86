@@ -1,7 +1,9 @@
 ﻿
+using System;
+
 namespace MediaTek86
 {
-    partial class Form1
+    partial class Connexion
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -43,7 +45,7 @@ namespace MediaTek86
             this.textLogin.Name = "textLogin";
             this.textLogin.Size = new System.Drawing.Size(100, 20);
             this.textLogin.TabIndex = 0;
-            this.textLogin.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.textLogin.TextChanged += new System.EventHandler(this.TextBox1_TextChanged_1);
             // 
             // textPassword
             // 
@@ -52,7 +54,7 @@ namespace MediaTek86
             this.textPassword.PasswordChar = '•';
             this.textPassword.Size = new System.Drawing.Size(100, 20);
             this.textPassword.TabIndex = 1;
-            this.textPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textPassword.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // button1
             // 
@@ -62,7 +64,7 @@ namespace MediaTek86
             this.button1.TabIndex = 2;
             this.button1.Text = "Connexion";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label1
             // 
@@ -111,6 +113,16 @@ namespace MediaTek86
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
